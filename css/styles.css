@@ -30,3 +30,53 @@ ul {
   padding: 0;
   list-style: none;
 }
+
+/* Header ------------------------------------ */
+
+.header-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-accent);
+}
+
+.header-logo-two {
+  color: var(--color-headline);
+}
+
+.nav-link.current,
+.contacts-link.current {
+  color: var(--color-accent);
+}
+
+.header {
+  background-color: var(--color-main);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-headline);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-accent);
+}
+
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--color-accent);
+}
