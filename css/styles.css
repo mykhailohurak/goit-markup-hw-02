@@ -217,3 +217,36 @@ ul {
 .footer-link:focus {
   color: var(--color-accent);
 }
+
+/* Portfolio --------------------------------- */
+
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-headline);
+}
+
+.portfolio-btn:hover {
+  cursor: pointer;
+  color: var(--color-main);
+  background: var(--color-accent);
+}
+
+.section-portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-headline);
+}
+
+.section-portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
